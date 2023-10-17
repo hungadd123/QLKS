@@ -1,0 +1,15 @@
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\Đồ Án Quản Lý Khách Sạn.exe.config
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\Đồ Án Quản Lý Khách Sạn.exe
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\Đồ Án Quản Lý Khách Sạn.pdb
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\EntityFramework.dll
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\EntityFramework.xml
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ Án Quản Lý Khách Sạn.csproj.AssemblyReference.cache
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ_Án_Quản_Lý_Khách_Sạn.Form1.resources
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ_Án_Quản_Lý_Khách_Sạn.Properties.Resources.resources
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ Án Quản Lý Khách Sạn.csproj.GenerateResource.cache
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ Án Quản Lý Khách Sạn.csproj.CoreCompileInputs.cache
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ Án Quản Lý Khách Sạn.csproj.CopyComplete
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ Án Quản Lý Khách Sạn.exe
+C:\Users\hunga\source\repos\Đồ Án Quản Lý Khách Sạn\Đồ Án Quản Lý Khách Sạn\obj\Debug\Đồ Án Quản Lý Khách Sạn.pdb
