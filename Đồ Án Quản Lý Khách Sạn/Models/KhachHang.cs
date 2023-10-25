@@ -32,11 +32,7 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
         public string DiaChi { get; set; }
 
         [Required]
-        [StringLength(40)]
-        public string UserName { get; set; }
-
-        [Required]
-        [StringLength(20)]
+        [StringLength(10)]
         public string PassWord { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

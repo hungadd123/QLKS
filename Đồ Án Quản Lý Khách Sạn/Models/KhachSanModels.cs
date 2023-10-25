@@ -5,10 +5,10 @@ using System.Linq;
 
 namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 {
-    public partial class KhachSanModels : DbContext
+    public partial class KhachSanmodels : DbContext
     {
-        public KhachSanModels()
-            : base("name=KhachSanModels")
+        public KhachSanmodels()
+            : base("name=KhachSanmodels")
         {
         }
 
@@ -20,6 +20,7 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
         public virtual DbSet<LoaiPhong> LoaiPhongs { get; set; }
         public virtual DbSet<NhanVien> NhanViens { get; set; }
         public virtual DbSet<PhieuDatPhong> PhieuDatPhongs { get; set; }
+        public virtual DbSet<PhieuDichVu> PhieuDichVus { get; set; }
         public virtual DbSet<PhieuPhat> PhieuPhats { get; set; }
         public virtual DbSet<Phong> Phongs { get; set; }
         public virtual DbSet<TienNghi> TienNghis { get; set; }
@@ -31,11 +32,7 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
                 .IsFixedLength();
 
             modelBuilder.Entity<ChiTietDichVu>()
-                .Property(e => e.MaHD)
-                .IsFixedLength();
-
-            modelBuilder.Entity<ChiTietDichVu>()
-                .Property(e => e.DVT)
+                .Property(e => e.MaPDV)
                 .IsFixedLength();
 
             modelBuilder.Entity<ChiTietTienNghi>()
@@ -57,44 +54,49 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.MaHD)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.MaPDP)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.MaNV)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.MaKH)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.MaPP)
                 .IsFixedLength();
 
             modelBuilder.Entity<HoaDon>()
-                .HasMany(e => e.ChiTietDichVus)
-                .WithRequired(e => e.HoaDon)
-                .WillCascadeOnDelete(false);
+                .Property(e => e.MaPhong)
+                .IsFixedLength();
+
+            modelBuilder.Entity<HoaDon>()
+                .Property(e => e.MaPDV)
+                .IsFixedLength();
 
             modelBuilder.Entity<KhachHang>()
                 .Property(e => e.MaKH)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<KhachHang>()
                 .Property(e => e.SDT)
                 .IsFixedLength();
 
             modelBuilder.Entity<KhachHang>()
-                .Property(e => e.UserName)
-                .IsFixedLength();
-
-            modelBuilder.Entity<KhachHang>()
                 .Property(e => e.PassWord)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<KhachHang>()
                 .HasMany(e => e.HoaDons)
@@ -112,7 +114,8 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
             modelBuilder.Entity<NhanVien>()
                 .Property(e => e.MaNV)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<NhanVien>()
                 .Property(e => e.SDT)
@@ -124,7 +127,8 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
             modelBuilder.Entity<NhanVien>()
                 .Property(e => e.PassWord)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<NhanVien>()
                 .HasMany(e => e.HoaDons)
@@ -133,12 +137,31 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
             modelBuilder.Entity<PhieuDatPhong>()
                 .Property(e => e.MaPDP)
-                .IsFixedLength();
+                .IsFixedLength()
+                .IsUnicode(false);
 
             modelBuilder.Entity<PhieuDatPhong>()
-                .HasMany(e => e.Phongs)
-                .WithMany(e => e.PhieuDatPhongs)
-                .Map(m => m.ToTable("ChiTietDatPhong").MapLeftKey("MaPDP").MapRightKey("MaPhong"));
+                .Property(e => e.MaKh)
+                .IsFixedLength()
+                .IsUnicode(false);
+
+            modelBuilder.Entity<PhieuDatPhong>()
+                .Property(e => e.MaPhong)
+                .IsFixedLength();
+
+            modelBuilder.Entity<PhieuDichVu>()
+                .Property(e => e.MaPDV)
+                .IsFixedLength();
+
+            modelBuilder.Entity<PhieuDichVu>()
+                .Property(e => e.MaKH)
+                .IsFixedLength()
+                .IsUnicode(false);
+
+            modelBuilder.Entity<PhieuDichVu>()
+                .HasMany(e => e.ChiTietDichVus)
+                .WithRequired(e => e.PhieuDichVu)
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<PhieuPhat>()
                 .Property(e => e.MaPP)
@@ -154,6 +177,11 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
             modelBuilder.Entity<Phong>()
                 .HasMany(e => e.ChiTietTienNghis)
+                .WithRequired(e => e.Phong)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Phong>()
+                .HasMany(e => e.HoaDons)
                 .WithRequired(e => e.Phong)
                 .WillCascadeOnDelete(false);
 

@@ -13,7 +13,7 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
         public Phong()
         {
             ChiTietTienNghis = new HashSet<ChiTietTienNghi>();
-            PhieuDatPhongs = new HashSet<PhieuDatPhong>();
+            HoaDons = new HashSet<HoaDon>();
         }
 
         [Key]
@@ -29,9 +29,13 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietTienNghi> ChiTietTienNghis { get; set; }
 
-        public virtual LoaiPhong LoaiPhong { get; set; }
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PhieuDatPhong> PhieuDatPhongs { get; set; }
+        public virtual ICollection<HoaDon> HoaDons { get; set; }
+
+        public virtual LoaiPhong LoaiPhong { get; set; }
+        public override string ToString()
+        {
+            return MaPhong;
+        }
     }
 }

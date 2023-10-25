@@ -118,13 +118,142 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="desktop-wallpaper-luxury-hotel-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\desktop-wallpaper-luxury-hotel-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit toolStrip cho các form nếu có tS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit toolStrip cho các form nếu có tS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tSMenuPersonalInfor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tSMenuPersonalInfor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buffetSang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buffetSang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormDK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phong Vip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phong Vip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tSMenuRooms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tSMenuRooms.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4796346623646_0b9d50d8a3e1b01cff0de66996ba3442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4796346623646_0b9d50d8a3e1b01cff0de66996ba3442.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4808183722312_bba814e10e615c4a20327f930de4bfcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4808183722312_bba814e10e615c4a20327f930de4bfcc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tSMenuDevices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tSMenuDevices.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4808165193031_efcf8d1163f900d1e972e64ca27e29f4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4808165193031_efcf8d1163f900d1e972e64ca27e29f4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formQL device" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formQL device.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tSMenuCustomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tSMenuCustomer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4808171866623_5a3addae6b6f9f0a26eba9300f36d050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4808171866623_5a3addae6b6f9f0a26eba9300f36d050.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4808179382863_54a03b3111e99ce46e7de0a77853287a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4808179382863_54a03b3111e99ce46e7de0a77853287a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4806705479132_4b23a37ba4f3dd1d2ad738b78b514a0c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4806705479132_4b23a37ba4f3dd1d2ad738b78b514a0c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconpassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconpassword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="z4796345325187_e91bf504435518caf58257496af66602" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4796345325187_e91bf504435518caf58257496af66602.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconpassword2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconpassword2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phong thuongggg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phong thuongggg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2023-10-19 175533" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2023-10-19 175533.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormQL tSMenuExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormQL tSMenuExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PhongSvip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PhongSvip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormQL tSMenuDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormQL tSMenuDevice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dich-vu-giat-say-ui-sach-nhat-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dich-vu-giat-say-ui-sach-nhat-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4808150542369_aea1c3f41e8d23991a5017d771e2429f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4808150542369_aea1c3f41e8d23991a5017d771e2429f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PictureBox tabcontrol AllPhòng form Tiếp Tân" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PictureBox tabcontrol AllPhòng form Tiếp Tân.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CustomerInfor formTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CustomerInfor formTT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desktop-wallpaper-luxury-hotel-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desktop-wallpaper-luxury-hotel-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4804837106951_1ce3181276a87671de53106ef3b32624" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4804837106951_1ce3181276a87671de53106ef3b32624.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PictureBox tabcontrol Phòng đã thuê form Tiếp Tân" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PictureBox tabcontrol Phòng đã thuê form Tiếp Tân.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4796343973240_64ec0fce4399313c46ffe8e928f415bf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4796343973240_64ec0fce4399313c46ffe8e928f415bf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tSMenuBill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tSMenuBill.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4804839805432_3e873c58c4234a9cb696c51bff2de58d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4804839805432_3e873c58c4234a9cb696c51bff2de58d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formQL convenient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formQL convenient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PictureBox tabcontrol Phòng chưa thuê form Tiếp Tân" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PictureBox tabcontrol Phòng chưa thuê form Tiếp Tân.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tSMenu Avatar formQL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tSMenu Avatar formQL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4796267050269_0c72c88389efc3efa089caf4e3e47132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4796267050269_0c72c88389efc3efa089caf4e3e47132.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PersonalInfor formNVTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PersonalInfor formNVTT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormQL tsMenuConvenient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormQL tsMenuConvenient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ccccc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ccccc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

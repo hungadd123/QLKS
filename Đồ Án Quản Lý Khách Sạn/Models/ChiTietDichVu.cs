@@ -17,16 +17,15 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
         [Key]
         [Column(Order = 1)]
         [StringLength(10)]
-        public string MaHD { get; set; }
+        public string MaPDV { get; set; }
 
         public int SoLuong { get; set; }
 
-        [Required]
-        [StringLength(10)]
-        public string DVT { get; set; }
+        [Column(TypeName = "date")]
+        public DateTime? Ngay { get; set; }
 
         public virtual DichVu DichVu { get; set; }
 
-        public virtual HoaDon HoaDon { get; set; }
+        public virtual PhieuDichVu PhieuDichVu { get; set; }
     }
 }

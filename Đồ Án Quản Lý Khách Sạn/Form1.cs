@@ -13,7 +13,7 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn
 {
     public partial class Form1 : Form
     {
-        KhachSanModels context = new KhachSanModels();
+        KhachSanmodels context = new KhachSanmodels();
         public Form1()
         {
             InitializeComponent();
@@ -43,44 +43,62 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn
             }
             else
             {
+                int flag = 0;
                 var nv = context.NhanViens.ToList();
                 foreach (var item in nv)
                 {
                     if(item.MaNV == textUsername.Text && item.PassWord == textPW.Text)
                     {
                         
-                        if(item.ChucVu == "Tiếp tân")
+                        if(item.ChucVu.Contains("Lễ tân"))
                         {
+                            flag = 1;
                             //Show giao diện của Nhân viên
+                            frmTiepTan f1 = new frmTiepTan(item.MaNV);
+                            f1.ShowDialog();
                         }
                         else
                         {
+                            flag = 1;
                             //Show giao diện của Quản lý
+                            frmQuanLy f2 = new frmQuanLy(item.MaNV);
+                            f2.ShowDialog();
                         }
-                        return;
+                        
                     }
                 }
                 var kh = context.KhachHangs.ToList();
                 foreach (var item in kh)
                 {
-                    if(item.UserName == textUsername.Text && item.PassWord == textPW.Text)
+                    if(item.MaKH.Equals(textUsername.Text)  && item.PassWord.Equals(textPW.Text))
                     {
+                        flag = 1;
                         //Show giao diện của Khách hàng
-                        return;
+                        //MessageBox.Show("Khách hàng! ");
+                        frmKhachHang f3 = new frmKhachHang(item.MaKH);
+                        f3.ShowDialog();
                     }
                 }
-                MessageBox.Show("Tài khoản hoặc mật khẩu không dúng vui lòng nhập lại!!");
+                if(flag == 0)
+                {
+                    MessageBox.Show("Tài khoản hoặc mật khẩu không đúng ! ");
+                }
+                
             }
         }
 
         private void buttonFPassW_Click(object sender, EventArgs e)
         {
             //Show giao dien Quen mat khau
+            frmQuenMK f1 = new frmQuenMK();
+            f1.ShowDialog();
         }
 
         private void labelSignUp_Click(object sender, EventArgs e)
         {
             //Show giao dien Dang ki
+            frmDangKy f1 = new frmDangKy();
+            f1.ShowDialog();
         }
     }
 }

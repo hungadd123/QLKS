@@ -28,7 +28,13 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
         public int SoTien { get; set; }
 
+        public bool? DaThanhToan { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HoaDon> HoaDons { get; set; }
+        public override string ToString()
+        {
+            return MaPP;
+        }
     }
 }

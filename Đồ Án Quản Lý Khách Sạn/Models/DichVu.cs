@@ -27,5 +27,9 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietDichVu> ChiTietDichVus { get; set; }
+        public override string ToString()
+        {
+            return TenDV + ": " + DonGia;
+        }
     }
 }

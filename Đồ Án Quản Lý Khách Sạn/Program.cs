@@ -17,6 +17,7 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+ //           Application.Run(new frmDichVu());
         }
     }
 }

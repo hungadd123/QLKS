@@ -9,14 +9,8 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
     [Table("HoaDon")]
     public partial class HoaDon
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public HoaDon()
-        {
-            ChiTietDichVus = new HashSet<ChiTietDichVu>();
-        }
-
         [Key]
-        [StringLength(10)]
+        [StringLength(5)]
         public string MaHD { get; set; }
 
         public int SoTien { get; set; }
@@ -38,8 +32,12 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
         [StringLength(10)]
         public string MaPP { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ChiTietDichVu> ChiTietDichVus { get; set; }
+        [Required]
+        [StringLength(10)]
+        public string MaPhong { get; set; }
+
+        [StringLength(10)]
+        public string MaPDV { get; set; }
 
         public virtual KhachHang KhachHang { get; set; }
 
@@ -47,6 +45,10 @@ namespace Đồ_Án_Quản_Lý_Khách_Sạn.Models
 
         public virtual PhieuDatPhong PhieuDatPhong { get; set; }
 
+        public virtual PhieuDichVu PhieuDichVu { get; set; }
+
         public virtual PhieuPhat PhieuPhat { get; set; }
+
+        public virtual Phong Phong { get; set; }
     }
 }
